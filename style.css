@@ -1,0 +1,15 @@
+.ul li{
+    list-style: none;
+}
+#trash{
+    width: 1em;
+    height: 1em;
+    cursor: pointer; 
+}
+
+.strike{
+    text-decoration: line-through;
+}
+span{
+    margin-left: 5px;
+}
