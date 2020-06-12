@@ -1,15 +1,78 @@
+*{
+    font-family: 'Baloo Thambi 2';
+}
+body{
+    background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+    height: 100vh;
+    
+
+}
+
+h1{
+    font-size: larger;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.main-container{
+    padding-top: 20px;
+    padding-bottom: 20px;   
+    width: 50%;
+    display: table;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.header{
+    background-image: url('head-image.jpg');
+    background-size: 100% 100%;
+    border-radius: 10px;
+    height: 50px;
+    padding: 50px;
+}
+.to-do-container{
+    display: table;
+    margin: 0 auto;
+
+}
+
 .ul li{
     list-style: none;
 }
-#trash{
-    width: 1em;
-    height: 1em;
+.trash{
+    width: 0.9em;
+    height: 0.9em;
     cursor: pointer; 
+    margin-left: 5px;
 }
-
+.btn{
+    margin-left: 10px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius: 5px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    text-shadow:0px 1px 0px #3d768a;
+   
+    
+}
 .strike{
     text-decoration: line-through;
 }
 span{
     margin-left: 5px;
+   
+}
+#input-text{
+    width: 60%;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    
 }
