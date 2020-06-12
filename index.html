@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO DO LIST APP</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Thambi 2' rel='stylesheet'>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
-    <h1>TO DO APP</h1>
-
-    
-    
-    <div class="myList" id="parent-list">
-        <ul class="ul" id="u-list">
-            <li> 
-                <input type="checkbox" class="check-box">
-                <span>First Task</span>
-            </li>
-        </ul>
+    <div class="main-container">
+        <div class="to-do-container">
+           <div class="header">
+                <h1 id="to-date">TO DO APP</h1>
+           </div> 
+                <div class="myList" id="parent-list">
+                    <span>Add your tasks here.</span>
+                    <ul class="ul" id="u-list">
+                <!--  Task items being place here -->
+                    </ul>
+                </div>
+        <input type="text" id="input-text" placeholder="What do you want to do?"><button class="btn" id="add-btn">ADD</button><button class="btn" id="del-btn">DELETE ALL</button>
+        </div>     
     </div>
     
-    <input type="text" id="input-text"><button id="add-btn">ADD</button><button id="del-btn">DELETE ALL</button>
-
     <script src="app.js"></script>
 </body>
 </html>
